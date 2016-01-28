@@ -1,0 +1,305 @@
+/* GLOBAL */
+/* Navigation */
+.navbar {
+  margin-bottom: 0px;
+}
+ .navbar .container {
+   margin-top: 0;
+ }
+
+/* Container */
+.container {
+  margin-top: 30px;
+}
+
+
+/* PLATFORM */
+.platform {
+
+  .jumbotron {
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    height: 350px;
+
+    h1 {
+      padding-top: 100px;
+    }
+
+  }
+
+    h1 {
+      margin-top: 0px;
+
+    }
+
+    .titles, .presses {
+      h2 {
+        font-size: 24px;
+      }
+      h3 {
+        font-size: 18px;
+      }
+      h2.section-head {
+        font-size: 24px;
+      }
+    }
+
+    /* Footer */
+    footer {
+      margin-bottom: 0px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      background-color: #000;
+      color: #fff;
+
+      p {
+          font-size: 16px;
+      }
+    }
+}
+
+/* PRESS */
+.press {
+
+  /* Marketing */
+  .jumbotron {
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+  }
+
+  h1 {
+    margin-top: 0px;
+  }
+
+  .pressbrand img {
+    margin: 0px 20px 20px 0px;
+  }
+
+  /* Navigation */
+  nav.press {
+    min-height: 50px;
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    background-color: #eee;
+
+
+    ul.nav {
+      padding: 8px 0;
+      float: left;
+    }
+
+    form.search {
+      padding: 11px 0;
+    }
+  }
+
+  /* Book and Item Browse */
+  h2.section-head {
+      font-size: 30px;
+      margin-top: 0px;
+      margin-bottom: 30px;
+  }
+
+  .titles, .items {
+
+    .row {
+      margin-bottom: 30px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    h2.section-head {
+      font-size: 24px;
+    }
+  }
+  .items h2 {
+    font-size: 18px;
+  }
+
+}
+
+/* Book/Product Page */
+.title {
+  .jumbotron h1, .jumbotron .h1 {
+    font-size: 36px;
+  }
+
+  .jumbotron {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .pressbrand img {
+    margin-bottom: 0px;
+  }
+
+  .titles h2 {
+    font-size: 30px;
+  }
+
+  .btn-toolbar {
+    margin: 25px 0px 10px -5px;
+
+    .btn-group {
+      margin-right: 10px;
+    }
+
+  }
+  .isbn {
+    margin: 20px 0px;
+  }
+
+  .sidebar {
+    margin-top: -30px;
+
+    h3 {
+      margin-top: 0px;
+    }
+
+
+  }
+
+  a.external {
+    font-size: 12px;
+  }
+
+}
+
+/* List view of title page */
+.title.list .content {
+
+  .row {
+
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 30px;
+
+    img {
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      margin-top: 5px;
+    }
+
+    h3 {
+      font-size: 16px;
+    }
+
+    .classification {
+      display: block;
+    }
+  }
+
+}
+
+.title.list.text .content {
+
+  .row {
+
+    .classification {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    h2 {
+      display: inline;
+    }
+
+  }
+
+
+}
+
+.content {
+  padding-left: 30px;
+}
+
+
+/* Item/Object Page */
+.item {
+
+  .object-navigation {
+
+    a {
+      font-size: 16px;
+    }
+
+    .glyphicon {
+      top: 2px;
+    }
+
+  }
+
+  .external-text {
+    margin-top: 20px;
+  }
+
+  .description {
+    margin-top: 30px;
+  }
+
+  .download {
+    margin-top: 20px;
+  }
+
+  .data {
+    padding-bottom: 45px;
+  }
+
+  audio {
+    margin-top: 20px;
+  }
+
+  video {
+    margin-top: 0px;
+  }
+
+  .fixed {
+    min-height: 30em;
+    max-height: 30em;
+    overflow-y: scroll;
+  }
+
+}
+
+footer.press {
+    background-color: #262626;
+    color: #fff;
+
+    .col-wrap {
+      overflow: hidden;
+    }
+
+    .col {
+      margin-bottom: -99999px;
+      padding-bottom: 99999px;
+    }
+
+    .social {
+      padding-left: 30px;
+    }
+
+    .social, .footer-nav {
+      padding-top: 30px;
+      background-color: #171717;
+    }
+
+    .platform {
+      padding-top: 30px;
+      color: #BABABA;
+    }
+
+    .copyright {
+        background-color: #000;
+        padding: 10px;
+        p {
+          font-size: 16px;
+        }
+    }
+
+}

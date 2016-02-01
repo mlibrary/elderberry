@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include admin/head.html %}
+
+  <body class="{{ page.selector }}">
+
+    <div id="wrapper">
+
+      <div id="sidebar-wrapper">
+			     {% include admin/menu.html %}
+      </div> <!-- /#sidebar-wrapper -->
+
+      <div id="page-content-wrapper">
+        <div class="page-content">
+			     {{ content }}
+        </div> <!-- /.page-content -->
+      </div> <!-- /#page-content-wrapper -->
+
+    </div> <!-- /#wrapper -->
+
+		  {% include admin/scripts.html %}
+
+	</body>
+</html>

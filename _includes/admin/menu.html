@@ -1,0 +1,30 @@
+    <!-- inspired by http://jsfiddle.net/eggleton/24sh7y11/ -->
+
+
+      <div class="sidebar-nav">
+        <div class="brand">
+          <h1>Platform Brand</h1><a class="pull-right" href="http://{{ site.host }}/press/index.html" title="View site" target="_blank"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+        </div>
+        <div class="search input-group">
+            <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-search"></span></span>
+          <input type="text" class="form-control" placeholder="Search for..." aria-describedby="basic-addon1">
+        </div>
+        <ul class="nav nav-pills nav-stacked">
+          <li role="presentation" class="home {{ page.home }}"><a href="http://{{ site.host }}/admin/index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> <span class="text">Home</span></a></li>
+          <li role="presentation" class="books {{ page.books }}"><a href="http://{{ site.host }}/admin/books/index.html"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> <span class="text">Books</span></a></li>
+          <li role="presentation" class="items {{ page.items }}"><a href="http://{{ site.host }}/admin/items/index.html"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> <span class="text">Items</span></a></li>
+          <li role="presentation" class="pages {{ page.pages }}"><a href="http://{{ site.host }}/admin/pages/index.html"><span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span> <span class="text">Pages</span></a></li>
+          <li role="presentation" class="reports {{ page.reports }}"><a href="http://{{ site.host }}/admin/reports/index.html"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> <span class="text">Reports</span></a></li>
+          <li role="presentation" class="customize {{ page.customize }}"><a href="http://{{ site.host }}/admin/customize/index.html"><span class="glyphicon glyphicon-tint" aria-hidden="true"></span> <span class="text">Customize</span></a></li>
+          <li role="presentation" class="settings {{ page.settings }}"><a href="http://{{ site.host }}/admin/settings/index.html"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> <span class="text">Settings</span></a></li>
+        </ul>
+
+
+        <nav class="navbar navbar-inverse navbar-fixed-bottom signinout">
+          <div class="container">
+            <p class="navbar-text press">University Press</p>
+            <p class="navbar-text user">Hi, Elderberry</p>
+          </div>
+        </nav>
+
+      </div> <!-- /.sidebar-nav -->

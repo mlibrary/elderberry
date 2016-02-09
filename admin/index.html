@@ -1,0 +1,154 @@
+---
+layout: admin
+title: University Press | Home
+home: active
+---
+
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <h2><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</h2>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container admin dashboard">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Recent Books</h2>
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Items</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td><a href="book/edit.html">Book Title</a></td>
+                <td>Firstname Lastname</td>
+                <td><a href="items/index.html">120</a></td>
+                <td>Published</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td><a href="#">Book Title 2</a></td>
+                <td>Firstname Lastname</td>
+                <td><a href="#">54</a></td>
+                <td>Unpublished</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td><a href="#">Book Title 3</a></td>
+                <td>Firstname Lastname</td>
+                <td><a href="#">88</a></td>
+                <td>Unpublished</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td><a href="#">Book Title 4</a></td>
+                <td>Firstname Lastname</td>
+                <td><a href="#">101</a></td>
+                <td>Unpublished</td>
+              </tr>
+
+            </tbody>
+
+          </table>
+
+
+
+      </div>
+
+      <a href="http://{{ site.host }}/admin/books/index.html" role="button" class="btn btn-default">View All Books</a>
+      <a href="http://{{ site.host }}/admin/books/add.html" role="button" class="btn btn-default">Add New Book</a>
+
+    </div>
+    </div> <!-- /.row -->
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Recent Items</h2>
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Object</th>
+                <th>Title</th>
+                <th>From Book</th>
+                <th>Related Chapter</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td><img data-src="holder.js/80x80" src="holder.js/80x80" class="img-thumbnail img-responsive">
+                <div class="classification">
+                  <span class="glyphicon glyphicon-picture" aria-hidden="true"></span>
+                </div></td>
+                <td><a href="#">Object Title</a></td>
+                <td><a href="#">Book Title</a></td>
+                <td>Chapter 1 Title</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td><img data-src="holder.js/80x80" src="holder.js/80x80" class="img-thumbnail img-responsive">
+                <div class="classification">
+                  <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>
+                  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                </div></td>
+                <td><a href="#">Object Title</a></td>
+                <td><a href="#">Book Title</a></td>
+                <td>Chapter 1 Title</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td><img data-src="holder.js/80x80" src="holder.js/80x80" class="img-thumbnail img-responsive">
+                <div class="classification">
+                  <span class="glyphicon glyphicon-film" aria-hidden="true"></span>
+                  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                </div></td>
+                <td><a href="#">Object Title</a></td>
+                <td><a href="#">Book Title</a></td>
+                <td>Chapter 1 Title</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td><img data-src="holder.js/80x80" src="holder.js/80x80" class="img-thumbnail img-responsive">
+                <div class="classification">
+                  <a class="external" href="#"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> View Object</a></div></td>
+                <td><a href="#">Object Title</a></td>
+                <td><a href="#">Book Title</a></td>
+                <td>Chapter 1 Title</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>  <img data-src="holder.js/80x80" src="holder.js/80x80" class="img-thumbnail img-responsive">
+                  <div class="classification">
+                    <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                  </div></td>
+                <td><a href="#">Object Title</a></td>
+                <td><a href="#">Book Title</a></td>
+                <td>Chapter 2 Title</td>
+              </tr>
+
+            </tbody>
+
+          </table>
+        </div>
+        <a href="http://{{ site.host }}/admin/items/index.html" role="button" class="btn btn-default">View All Items</a>
+        <a href="http://{{ site.host }}/admin/items/add.html" role="button" class="btn btn-default">Upload New Items</a>
+
+      </div>
+    </div> <!-- /.row -->
+
+
+
+  </div> <!-- /.container -->

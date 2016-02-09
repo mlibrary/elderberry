@@ -1,0 +1,121 @@
+---
+layout: admin
+title: University Press | Add a New Book
+books: active
+---
+
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#admin-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+        <h2><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Books</h2>
+      </div>
+
+      <div class="collapse navbar-collapse" id="admin-navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="add.html" role="button" class="btn btn-default btn-sm navbar-btn">Add New</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="container admin add-book">
+    <div class="row">
+      <div class="col-sm-8">
+
+        <form>
+          <div class="form-group">
+            <label for="BookTitle">Book Title</label>
+            <input type="text" class="form-control" id="BookTitle" placeholder="Book Title: Subtitle">
+          </div>
+          <div class="form-group">
+            <label for="BookAuthor">Author</label>
+            <input type="text" class="form-control" id="BookAuthor" placeholder="Firstname Lastname">
+          </div>
+          <div class="form-group">
+            <label for="BookAuthorEmail">Author Email</label>
+            <input type="email" class="form-control" id="BookAuthorEmail" placeholder="jane.doe@example.com">
+          </div>
+          <div class="form-group">
+            <label for="BookDescription">Description</label>
+            <p class="help-block">Provide a short description of the book.</p>
+            <textarea class="form-control" rows="4"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="BookDate">Publication Date</label>
+            <input type="text" class="form-control" id="BookDate" placeholder="Fall 2016">
+          </div>
+          <div class="form-group">
+            <label for="BookISBN">ISBN</label>
+            <input type="text" class="form-control" id="BookISBN" placeholder="012-3-45678-901-0">
+          </div>
+          <div class="form-group">
+            <label for="BookBuyURL">Subjects</label>
+            <select class="form-control">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="BookBuyURL">Buy Book URL</label>
+            <input type="url" class="form-control" id="BookBuyURL" placeholder="http://press.university.edu/123456">
+          </div>
+          <div class="form-group">
+            <label for="BookReadURL">Read Book URL</label>
+            <input type="url" class="form-control" id="BookReadURL" placeholder="http://press.university.edu/open/123456">
+          </div>
+
+          <div class="form-group">
+            <label for="BookCoverURL">Book Cover URL</label>
+            <input type="url" class="form-control" id="BookCoverURL" placeholder="http://press.university.edu/cover/123456">
+          </div>
+          <div class="form-group">
+            <label for="BookCoverFile">Upload Book Cover</label>
+            <input type="file" id="BookCoverFile">
+            <p class="help-block">Optionally, if you do not have a book cover available online, navigate your desktop for a book cover file to upload.</p>
+          </div>
+
+
+        </form>
+      </div>
+      <div class="col-sm-4">
+        <form>
+          <div class="form-group">
+            <label for="BookPublish">Publish Book and Book Materials</label>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                  Publish Book to Platform
+                </label>
+            </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+                Publish Book Materials to Platform
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn btn-default">Save Book</button>
+        </div>
+
+        </form>
+
+    </div>
+
+
+    </div> <!-- /.row -->
+
+
+  </div> <!-- /.container -->

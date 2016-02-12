@@ -79,22 +79,54 @@ selector: press title item
             <h2>Object Title</h2>
             <h3>From <a href="../index.html">Book Title</a>, by Firstname Lastname</h3>
             <br />
-            <ul class="nav nav-tabs">
-              <li role="presentation" class="active"><a href="#">Metadata</a></li>
-              <li role="presentation"><a href="#">Technical Metadata</a></li>
-              <li role="presentation"><a href="#">Permissions</a></li>
-              <li role="presentation"><a href="#">Metrics</a></li>
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#info" aria-controls="info" role="tab" data-toggle="tab">Info</a></li>
+              <li role="presentation"><a href="#permissions" aria-controls="permissions" role="tab" data-toggle="tab">Permissions</a></li>
+              <li role="presentation"><a href="#stats" aria-controls="stats" role="tab" data-toggle="tab">Stats</a></li>
+              <li role="presentation"><a href="#technical-info" aria-controls="technical-info" role="tab" data-toggle="tab">Technical Info</a></li>
             </ul>
-              <p class="description">This is a longer description of the item as given to us by the author. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
-              <p class="creator">Creator: Firstname Lastname</p>
-              <p class="subjects">Subjects: <a href="#">Subject 1</a>, <a href="#">Subject 2</a></p>
-              <p class="date">Date: Year</p>
-              <p class="chapter">Related Chapter: Chapter 1</p>
-              <p class="tags">Keywords/Tags: <a href="#">Tag 1</a>, <a href="#">Tag 2</a>, <a href="#">Tag 3</a>, <a href="#">Tag 4</a></p>
-              <p class="">DOI: <a href="#">http://dx.doi.org/10.3998/123456789</a></p>
-
-
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="info">
+                <p class="description">This is a longer description of the item as given to us by the author. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+                <p class="creator">Creator: Firstname Lastname</p>
+                <p class="subjects">Subjects: <a href="#">Subject 1</a>, <a href="#">Subject 2</a></p>
+                <p class="date">Date: Year</p>
+                <p class="chapter">Related Chapter: Chapter 1</p>
+                <p class="tags">Keywords/Tags: <a href="#">Tag 1</a>, <a href="#">Tag 2</a>, <a href="#">Tag 3</a>, <a href="#">Tag 4</a></p>
+                <p class="">DOI: <a href="#">http://dx.doi.org/10.3998/123456789</a></p>
+              </div> <!-- /.info panel -->
+              <div role="tabpanel" class="tab-pane" id="permissions">
+                <p class="creator">Copyright holder: Institution</p>
+                <p class="subjects">License: Creative Commons</p>
+              </div> <!-- /.permissions panel -->
+              <div role="tabpanel" class="tab-pane" id="stats">
+                <p>Altmetric data</p>
+                <p>Pageviews</p>
+                <p>Downloads</p>
+              </div> <!-- /.stats panel -->
+              <div role="tabpanel" class="tab-pane" id="technical-info">
+                <p class="creator">File type: Firstname Lastname</p>
+                <p class="subjects">File size: <a href="#">Subject 1</a>, <a href="#">Subject 2</a></p>
+                <p class="date">Resolution: Year</p>
+              </div> <!-- /.technical-info panel -->
+            </div> <!-- /.tab-content Tab panes -->
+            <!-- Object Actions -->
+            <div class="actions">
               <button type="button" class="btn btn-default btn-lg download">Download</button>
+              <button type="button" class="btn btn-default btn-lg download">Cite</button>
+              <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Share <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Google+</a></li>
+                  <li><a href="#">Reddit</a></li>
+                  <li><a href="#">Mendeley</a></li>
+                  <li><a href="#">Cite U Like</a></li>
+                </ul>
+              </div>
+            </div><!-- actions -->
           </div>
         </div>
       </div><!-- /.container -->

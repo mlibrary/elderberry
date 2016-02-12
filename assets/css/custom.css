@@ -31,13 +31,15 @@
     font-size: 18px; }
   .platform .titles h2.section-head, .platform .presses h2.section-head {
     font-size: 24px; }
-  .platform footer {
+  .platform footer.platform {
     margin-bottom: 0px;
     padding-top: 30px;
     padding-bottom: 20px;
     background-color: #000;
     color: #fff; }
-    .platform footer p {
+    .platform footer.platform .container {
+      margin-top: 0; }
+    .platform footer.platform p {
       font-size: 16px; }
 
 /* PRESS */
@@ -129,12 +131,17 @@
   font-size: 16px; }
 .item .object-navigation .glyphicon {
   top: 2px; }
+.item .zoom {
+  margin-top: 10px;
+  font-size: 1.2em; }
 .item .external-text {
   margin-top: 20px; }
-.item .description {
+.item .tab-content {
   margin-top: 30px; }
-.item .download {
+.item .download, .item .cite, .item .share {
   margin-top: 20px; }
+.item .cite, .item .share {
+  margin-left: 20px; }
 .item .data {
   padding-bottom: 45px; }
 .item audio {

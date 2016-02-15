@@ -39,8 +39,9 @@ home: active
     <div class="row">
       <div class="col-sm-12">
         <div class="panel panel-default">
-          <div class="panel-heading"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Recent Books <div class="pull-right"><a href="http://{{ site.host }}/admin/books/index.html" role="button" class="btn btn-default">View All Books</a>
-            <a href="http://{{ site.host }}/admin/books/add.html" role="button" class="btn btn-default">Add New Book</a></div></div>
+          <div class="panel-heading"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Recent Books <div class="more pull-right"><a href="http://{{ site.host }}/admin/books/index.html" role="button" class="btn btn-default btn-sm">View All Books</a>
+            <a href="http://{{ site.host }}/admin/books/add.html" role="button" class="btn btn-default btn-sm">Add New Book</a></div>
+          </div>
           <div class="table-responsive">
             <table class="table table-bordered table-hover">
               <thead>
@@ -84,11 +85,6 @@ home: active
               </tbody>
             </table>
           </div>
-          <div class="panel-footer">
-            <a href="http://{{ site.host }}/admin/books/index.html" role="button" class="btn btn-default">View All Books</a>
-            <a href="http://{{ site.host }}/admin/books/add.html" role="button" class="btn btn-default">Add New Book</a>
-          </div>
-
         </div> <!-- /.panel -->
       </div>
     </div> <!-- /.row -->
@@ -96,7 +92,9 @@ home: active
     <div class="row">
       <div class="col-sm-12">
         <div class="panel panel-default">
-          <div class="panel-heading"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Recent Items</div>
+          <div class="panel-heading"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Recent Items
+            <div class="pull-right more"><a href="http://{{ site.host }}/admin/items/index.html" role="button" class="btn btn-default btn-sm">View All Items</a><a href="http://{{ site.host }}/admin/items/add.html" role="button" class="btn btn-default btn-sm">Upload New Items</a></div>
+          </div>
             <div class="table-responsive">
             <table class="table table-bordered table-hover">
               <thead>
@@ -111,7 +109,7 @@ home: active
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">0000120</th>
+                  <td scope="row">0000120</td>
                   <td><img data-src="holder.js/80x80" src="holder.js/80x80" class="img-thumbnail img-responsive">
                   <div class="classification">
                     <span class="glyphicon glyphicon-picture" aria-hidden="true"></span>
@@ -122,7 +120,7 @@ home: active
                   <td>Published - 2016/02/07</td>
                 </tr>
                 <tr>
-                  <th scope="row">0000119</th>
+                  <td scope="row">0000119</td>
                   <td><img data-src="holder.js/80x80" src="holder.js/80x80" class="img-thumbnail img-responsive">
                   <div class="classification">
                     <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>
@@ -134,7 +132,7 @@ home: active
                   <td>Published - 2016/02/07</td>
                 </tr>
                 <tr>
-                  <th scope="row">00000118</th>
+                  <td scope="row">00000118</td>
                   <td><img data-src="holder.js/80x80" src="holder.js/80x80" class="img-thumbnail img-responsive">
                   <div class="classification">
                     <span class="glyphicon glyphicon-film" aria-hidden="true"></span>
@@ -146,7 +144,7 @@ home: active
                   <td>Published - 2016/02/07</td>
                 </tr>
                 <tr>
-                  <th scope="row">0000117</th>
+                  <td scope="row">00000117</td>
                   <td><img data-src="holder.js/80x80" src="holder.js/80x80" class="img-thumbnail img-responsive">
                   <div class="classification">
                     <a class="external" href="#"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> View Object</a></div></td>
@@ -156,7 +154,7 @@ home: active
                   <td>Published - 2016/02/07</td>
                 </tr>
                 <tr>
-                  <th scope="row">0000116</th>
+                  <td scope="row">00000116</td>
                   <td>  <img data-src="holder.js/80x80" src="holder.js/80x80" class="img-thumbnail img-responsive">
                     <div class="classification">
                       <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
@@ -171,10 +169,6 @@ home: active
               </tbody>
 
             </table>
-          </div>
-          <div class="panel-footer">
-            <a href="http://{{ site.host }}/admin/items/index.html" role="button" class="btn btn-default">View All Items</a>
-            <a href="http://{{ site.host }}/admin/items/add.html" role="button" class="btn btn-default">Upload New Items</a>
           </div>
         </div>
       </div>

@@ -19,9 +19,9 @@ home: active
           <div class="panel-heading">Overview</div>
           <div class="panel-body">
               <ul class="list-unstyled">
-                <li><a href="books/index.html">4 Books</a></li>
-                <li><a href="items/index.html">382 Items</a></li>
-                <li><a href="#">4 Pages</a></li>
+                <li><span class="glyphicon glyphicon-book" aria-hidden="true"></span>  <a href="books/index.html">4 Books</a></li>
+                <li><span class="glyphicon glyphicon-tags" aria-hidden="true"></span>  <a href="items/index.html">382 Items</a></li>
+                <li><span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span>  <a href="#">4 Pages</a></li>
               </ul>
           </div>
         </div>
@@ -39,7 +39,8 @@ home: active
     <div class="row">
       <div class="col-sm-12">
         <div class="panel panel-default">
-          <div class="panel-heading"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Recent Books</div>
+          <div class="panel-heading"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Recent Books <div class="pull-right"><a href="http://{{ site.host }}/admin/books/index.html" role="button" class="btn btn-default">View All Books</a>
+            <a href="http://{{ site.host }}/admin/books/add.html" role="button" class="btn btn-default">Add New Book</a></div></div>
           <div class="table-responsive">
             <table class="table table-bordered table-hover">
               <thead>
@@ -53,28 +54,28 @@ home: active
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">0000004</th>
+                  <td scope="row">0000004</td>
                   <td><a href="#">Book Title 4</a></td>
                   <td>Firstname Lastname</td>
                   <td><a href="#">120</a></td>
                   <td>Last Modified - 2016/02/15</td>
                 </tr>
                 <tr>
-                  <th scope="row">0000003</th>
+                  <td scope="row">0000003</td>
                   <td><a href="#">Book Title 3</a></td>
                   <td>Firstname Lastname</td>
                   <td><a href="#">54</a></td>
                   <td>Last Modified - 2016/02/10</td>
                 </tr>
                 <tr>
-                  <th scope="row">0000002</th>
+                  <td scope="row">0000002</td>
                   <td><a href="#">Book Title 2</a></td>
                   <td>Firstname Lastname</td>
                   <td><a href="#">88</a></td>
                   <td>Last Modified - 2016/02/08</td>
                 </tr>
                 <tr>
-                  <th scope="row">0000001</th>
+                  <td scope="row">0000001</td>
                   <td><a href="book/edit.html">Book Title</a></td>
                   <td>Firstname Lastname</td>
                   <td><a href="items/index.html">120</a></td>

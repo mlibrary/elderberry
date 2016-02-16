@@ -1,6 +1,6 @@
 ---
 layout: admin
-title: University Press | Add a New Book
+title: University Press | Edit Book
 books: active
 ---
 
@@ -33,7 +33,7 @@ books: active
         <form>
           <div class="form-group">
             <label for="BookTitle">Book Title</label>
-            <input type="text" class="form-control" id="BookTitle" placeholder="Book Title: Subtitle">
+            <input type="text" class="form-control" id="BookTitle" value="Book Title">
           </div>
           <div class="form-group">
             <label for="BookAuthor">Author/Editor</label>
@@ -44,24 +44,24 @@ books: active
             <input type="text" class="form-control" id="BookAttribution" value="Firstname Lastname">
           </div>
           <div class="form-group">
-            <label for="BookAuthorEmail">Author Email</label>
-            <input type="email" class="form-control" id="BookAuthorEmail" placeholder="jane.doe@example.com">
+            <label for="BookAuthorEmail">Author/Editor Email</label>
+            <input type="email" class="form-control" id="BookAuthorEmail" value="jane.doe@example.com">
           </div>
           <div class="form-group">
             <label for="BookDescription">Description</label>
             <p class="help-block">Provide a short description of the book.</p>
-            <textarea class="form-control" rows="4"></textarea>
+            <textarea class="form-control" rows="4" value="This is where a book description is placed, that could also include an introduction to the supplemental materials that are a part of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Phasellus orci massa, rutrum at feugiat vel, euismod ut nulla."></textarea>
           </div>
           <div class="form-group">
             <label for="BookDate">Date</label>
-            <input type="text" class="form-control" id="BookDate" placeholder="2016">
+            <input type="text" class="form-control" id="BookDate" value="2016">
           </div>
           <div class="form-group">
             <label for="BookISBN">ISBN</label>
-            <input type="text" class="form-control" id="BookISBN" placeholder="012-3-45678-901-0">
+            <input type="text" class="form-control" id="BookISBN" value="012-3-45678-901-0">
           </div>
           <div class="form-group">
-            <label for="BookBuyURL">Subjects</label>
+            <label for="BookSubjects">Subjects</label>
             <select class="form-control">
               <option>1</option>
               <option>2</option>
@@ -86,16 +86,16 @@ books: active
           </div>
           <div class="form-group">
             <label for="BookBuyURL">Buy Book URL</label>
-            <input type="url" class="form-control" id="BookBuyURL" placeholder="http://press.university.edu/123456">
+            <input type="url" class="form-control" id="BookBuyURL" value="http://press.university.edu/123456">
           </div>
           <div class="form-group">
             <label for="BookReadURL">Read Book URL</label>
-            <input type="url" class="form-control" id="BookReadURL" placeholder="http://press.university.edu/open/123456">
+            <input type="url" class="form-control" id="BookReadURL" value="http://press.university.edu/open/123456">
           </div>
 
           <div class="form-group">
             <label for="BookCoverURL">Book Cover URL</label>
-            <input type="url" class="form-control" id="BookCoverURL" placeholder="http://press.university.edu/cover/123456">
+            <input type="url" class="form-control" id="BookCoverURL" value="http://press.university.edu/cover/123456">
           </div>
           <div class="form-group">
             <label for="BookCoverFile">Upload Book Cover</label>
@@ -110,18 +110,17 @@ books: active
         <form>
           <div class="form-group">
             <label for="BookPublish">Save and Publish Book</label>
-            <p>Last modified: </p>
+            <p>Last modified: 02/07/16 1:36PM</p>
             <div class="form-group">
-              <button type="submit" class="btn btn-default">Save Draft</button>
+              <button type="submit" class="btn btn-default">Update Book</button>
             </div>
             <div class="form-group">
-              <button type="submit" class="btn btn-default">Publish</button>
+              <button type="submit" class="btn btn-default">Unpublish</button>
             </div>
             <!-- Add Date / Month Picker for Setting Publication Date -->
           </div>
         </form>
       </div>
-
     </div> <!-- /.row -->
 
 

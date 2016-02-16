@@ -267,6 +267,8 @@ footer.press {
     padding-bottom: 50px; }
     #page-content-wrapper .dashboard .row .more {
       margin-top: -5px; }
+    #page-content-wrapper .dashboard .row .glyphicon {
+      margin-right: 5px; }
   #page-content-wrapper .add-items.confirm .items h2 {
     font-size: 20px;
     margin-bottom: 20px; }

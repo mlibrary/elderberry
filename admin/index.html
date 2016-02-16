@@ -45,12 +45,12 @@ home: active
           <div class="table-responsive">
             <table class="table table-bordered table-hover">
               <thead>
-                <tr>
-                  <th>ID</th>
-                  <th>Title</th>
-                  <th>Author</th>
-                  <th>Items</th>
-                  <th>Date</th>
+                <tr class="sort">
+                  <th><a href="#">ID</a></th>
+                  <th><a href="#">Title</a></th>
+                  <th><a href="#">Author</a></th>
+                  <th><a href="#">Items</a></th>
+                  <th><a href="#">Date</a></th>
                 </tr>
               </thead>
               <tbody>
@@ -58,7 +58,7 @@ home: active
                   <td scope="row">0000004</td>
                   <td><a href="#">Book Title 4</a></td>
                   <td>Firstname Lastname</td>
-                  <td><a href="#">120</a></td>
+                  <td><a href="#">101</a></td>
                   <td>Last Modified - 2016/02/15</td>
                 </tr>
                 <tr>
@@ -79,7 +79,7 @@ home: active
                   <td scope="row">0000001</td>
                   <td><a href="book/edit.html">Book Title</a></td>
                   <td>Firstname Lastname</td>
-                  <td><a href="items/index.html">120</a></td>
+                  <td><a href="../items/index.html">120</a></td>
                   <td>Published - 2016/02/07</td>
                 </tr>
               </tbody>
@@ -93,18 +93,19 @@ home: active
       <div class="col-sm-12">
         <div class="panel panel-default">
           <div class="panel-heading"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Recent Items
-            <div class="pull-right more"><a href="http://{{ site.host }}/admin/items/index.html" role="button" class="btn btn-default btn-sm">View All Items</a><a href="http://{{ site.host }}/admin/items/add.html" role="button" class="btn btn-default btn-sm">Upload New Items</a></div>
+            <div class="pull-right more"><a href="http://{{ site.host }}/admin/items/index.html" role="button" class="btn btn-default btn-sm">View All Items</a>
+              <a href="http://{{ site.host }}/admin/items/add.html" role="button" class="btn btn-default btn-sm">Upload New Items</a></div>
           </div>
             <div class="table-responsive">
             <table class="table table-bordered table-hover">
               <thead>
-                <tr>
-                  <th>ID</th>
+                <tr class="sort">
+                  <th><a href="#">ID</a></th>
                   <th>Object</th>
-                  <th>Title</th>
-                  <th>From Book</th>
+                  <th><a href="#">Title</a></th>
+                  <th><a href="#">From Book</a></th>
                   <th>Related Chapter</th>
-                  <th>Date</th>
+                  <th><a href="#">Date</a></th>
                 </tr>
               </thead>
               <tbody>

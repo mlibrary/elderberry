@@ -29,13 +29,13 @@ books: active
   <div class="container admin add-book">
     <div class="row">
       <div class="col-sm-8">
-
+        <h2>Edit a Book</h2>
         <form>
           <div class="form-group">
             <label for="BookTitle">Book Title</label>
             <input type="text" class="form-control" id="BookTitle" value="Book Title">
           </div>
-          <div class="form-group">
+          <div class="form-group author-editor">
             <label for="BookAuthor">Author/Editor</label>
               <select class="form-control">
                 <option>Author</option>
@@ -52,16 +52,9 @@ books: active
             <p class="help-block">Provide a short description of the book.</p>
             <textarea class="form-control" rows="4" value="">This is where a book description is placed, that could also include an introduction to the supplemental materials that are a part of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Phasellus orci massa, rutrum at feugiat vel, euismod ut nulla.</textarea>
           </div>
+
           <div class="form-group">
-            <label for="BookDate">Date</label>
-            <input type="text" class="form-control" id="BookDate" value="2016">
-          </div>
-          <div class="form-group">
-            <label for="BookISBN">ISBN</label>
-            <input type="text" class="form-control" id="BookISBN" value="012-3-45678-901-0">
-          </div>
-          <div class="form-group">
-            <label for="BookSubjects">Subjects</label>
+            <label for="BookBuyURL">Subjects</label>
             <select class="form-control">
               <option>1</option>
               <option>2</option>
@@ -70,6 +63,25 @@ books: active
               <option>5</option>
             </select>
           </div>
+
+          <div class="form-group">
+            <label for="BookDate">Date</label>
+            <input type="text" class="form-control" id="BookDate" value="2016">
+          </div>
+
+          <div class="form-group">
+            <label for="BookISBN">ISBN</label>
+            <input type="text" class="form-control" id="BookISBN" value="012-3-45678-901-0">
+          </div>
+          <div class="form-group">
+            <label for="BookDOI">DOI</label>
+            <input type="text" class="form-control" id="BookDOI" value="10.3998/12345678">
+          </div>
+          <div class="form-group">
+            <label for="BookHandle">Handle</label>
+            <input type="text" class="form-control" id="BookHandle" value="2027/1234567">
+          </div>
+
           <div class="form-group">
             <label for="BookCopyright">Copyright Holder</label>
             <input type="url" class="form-control" id="BookCopyright" value="University Press">

@@ -1,0 +1,145 @@
+---
+layout: admin
+title: University Press | Edit Item
+items: active
+---
+
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#admin-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+        <h2><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Items</h2>
+      </div>
+
+      <div class="collapse navbar-collapse" id="admin-navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="add.html" role="button" class="btn btn-default btn-sm navbar-btn">Add New</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="container admin edit-item">
+    <div class="row">
+      <div class="col-sm-8">
+        <h3>Edit an Item</h3>
+        <form>
+          <div class="form-group">
+            <label for="ObjectTitle">Object Title</label>
+            <p class="help-block">A name given to the resource. Examples: title of a painting, photo, video</p>
+            <input type="text" class="form-control" id="ObjectTitle" value="Object Title">
+          </div>
+          <div class="form-group">
+            <!-- image here -->
+          </div>
+          
+
+          <div class="form-group author-editor">
+            <label for="BookAuthor">Author/Editor</label>
+              <select class="form-control">
+                <option>Author</option>
+                <option>Editor</option>
+              </select>
+            <input type="text" class="form-control" id="BookAttribution" value="Firstname Lastname">
+          </div>
+          <div class="form-group">
+            <label for="BookAuthorEmail">Author/Editor Email</label>
+            <input type="email" class="form-control" id="BookAuthorEmail" value="jane.doe@example.com">
+          </div>
+          <div class="form-group">
+            <label for="BookDescription">Description</label>
+            <p class="help-block">Provide a short description of the book.</p>
+            <textarea class="form-control" rows="4" value="">This is where a book description is placed, that could also include an introduction to the supplemental materials that are a part of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Phasellus orci massa, rutrum at feugiat vel, euismod ut nulla.</textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="BookBuyURL">Subjects</label>
+            <select class="form-control">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="BookDate">Date</label>
+            <input type="text" class="form-control" id="BookDate" value="2016">
+          </div>
+
+          <div class="form-group">
+            <label for="BookISBN">ISBN</label>
+            <input type="text" class="form-control" id="BookISBN" value="012-3-45678-901-0">
+          </div>
+          <div class="form-group">
+            <label for="BookDOI">DOI</label>
+            <input type="text" class="form-control" id="BookDOI" value="10.3998/12345678">
+          </div>
+          <div class="form-group">
+            <label for="BookHandle">Handle</label>
+            <input type="text" class="form-control" id="BookHandle" value="2027/1234567">
+          </div>
+
+          <div class="form-group">
+            <label for="BookCopyright">Copyright Holder</label>
+            <input type="url" class="form-control" id="BookCopyright" value="University Press">
+          </div>
+          <div class="form-group">
+            <label for="BookLicense">License</label>
+            <select class="form-control">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="BookBuyURL">Buy Book URL</label>
+            <input type="url" class="form-control" id="BookBuyURL" value="http://press.university.edu/123456">
+          </div>
+          <div class="form-group">
+            <label for="BookReadURL">Read Book URL</label>
+            <input type="url" class="form-control" id="BookReadURL" value="http://press.university.edu/open/123456">
+          </div>
+
+          <div class="form-group">
+            <label for="BookCoverURL">Book Cover URL</label>
+            <input type="url" class="form-control" id="BookCoverURL" value="http://press.university.edu/cover/123456">
+          </div>
+          <div class="form-group">
+            <label for="BookCoverFile">Upload Book Cover</label>
+            <input type="file" id="BookCoverFile">
+            <p class="help-block">Optionally, if you do not have a book cover available online, navigate your desktop for a book cover file to upload.</p>
+          </div>
+
+
+        </form>
+      </div>
+      <div class="col-sm-4">
+        <form>
+          <div class="form-group">
+            <label for="BookPublish">Save and Publish Book</label>
+            <p>Last modified: 02/07/16 1:36PM</p>
+            <div class="form-group">
+              <button type="submit" class="btn btn-default">Update Book</button>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-default">Unpublish</button>
+            </div>
+            <!-- Add Date / Month Picker for Setting Publication Date -->
+          </div>
+        </form>
+      </div>
+    </div> <!-- /.row -->
+
+
+  </div> <!-- /.container -->

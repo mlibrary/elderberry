@@ -505,6 +505,24 @@ footer.press {
 
   }
 
+  .add-book {
+
+    select {
+
+      width: 30%;
+
+    }
+
+    .author-editor {
+
+        select {
+          margin-bottom: 10px;
+        }
+
+    }
+
+  }
+
   .dashboard {
 
     h2 {
@@ -514,9 +532,16 @@ footer.press {
 
     .row {
 
-      border-bottom: 1px solid #e5e5e5;
-      padding-bottom: 30px;
-      margin-bottom: 20px;
+      padding-bottom: 50px;
+
+        .more {
+          margin-top: -5px;
+        }
+
+        .glyphicon {
+          margin-right: 5px;
+
+        }
 
     }
 

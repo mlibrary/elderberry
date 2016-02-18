@@ -260,13 +260,19 @@ footer.press {
     margin-bottom: 10px; }
   #page-content-wrapper .add-items .processing {
     margin-top: 90px; }
+  #page-content-wrapper .add-book select {
+    width: 30%; }
+  #page-content-wrapper .add-book .author-editor select {
+    margin-bottom: 10px; }
   #page-content-wrapper .dashboard h2 {
     font-size: 20px;
     margin-bottom: 20px; }
   #page-content-wrapper .dashboard .row {
-    border-bottom: 1px solid #e5e5e5;
-    padding-bottom: 30px;
-    margin-bottom: 20px; }
+    padding-bottom: 50px; }
+    #page-content-wrapper .dashboard .row .more {
+      margin-top: -5px; }
+    #page-content-wrapper .dashboard .row .glyphicon {
+      margin-right: 5px; }
   #page-content-wrapper .add-items.confirm .items h2 {
     font-size: 20px;
     margin-bottom: 20px; }
